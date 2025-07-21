@@ -11,13 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repo
+      - name: 📥 Checkout repo sin submódulos
         uses: actions/checkout@v3
+        with:
+          submodules: false
 
       - name: 🔧 Set up .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.x' # o la versión que estás usando
+          dotnet-version: '8.0.x'  # Cambia si usas otra versión
 
       - name: 📦 Restore dependencies
         run: dotnet restore
@@ -30,5 +32,3 @@ jobs:
       - name: ✅ Run tests
         run: dotnet test --no-build --verbosity normal
         working-directory: MaquinaCafeApp
-
-        
