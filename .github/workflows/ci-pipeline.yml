@@ -21,13 +21,21 @@ jobs:
         with:
           dotnet-version: '8.0.x'  # Cambia si usas otra versión
 
-      - name: 📦 Restore dependencies
+      - name: 📦 Restore dependencies (App)
         run: dotnet restore
         working-directory: MaquinaCafeApp
 
-      - name: 🛠️ Build
+      - name: 🛠️ Build App
         run: dotnet build --no-restore
         working-directory: MaquinaCafeApp
+
+      - name: 📦 Restore dependencies (Tests)
+        run: dotnet restore
+        working-directory: MaquinaCafe.Tests
+
+      - name: 🛠️ Build Tests
+        run: dotnet build --no-restore
+        working-directory: MaquinaCafe.Tests
 
       - name: ✅ Run tests
         run: dotnet test --no-build --verbosity normal
