@@ -1,0 +1,14 @@
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\bin\Debug\net8.0\MaquinaCafeApp.exe
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\bin\Debug\net8.0\MaquinaCafeApp.deps.json
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\bin\Debug\net8.0\MaquinaCafeApp.runtimeconfig.json
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\bin\Debug\net8.0\MaquinaCafeApp.dll
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\bin\Debug\net8.0\MaquinaCafeApp.pdb
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.AssemblyInfoInputs.cache
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.AssemblyInfo.cs
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.csproj.CoreCompileInputs.cache
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.dll
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\refint\MaquinaCafeApp.dll
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.pdb
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.genruntimeconfig.cache
+C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\ref\MaquinaCafeApp.dll
