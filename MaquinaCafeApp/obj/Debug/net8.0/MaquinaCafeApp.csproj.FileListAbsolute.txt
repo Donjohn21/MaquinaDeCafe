@@ -12,3 +12,4 @@ C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\refint\MaquinaCafeA
 C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.pdb
 C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.genruntimeconfig.cache
 C:\MaquinaDeCafe\MaquinaCafe\MaquinaCafeApp\obj\Debug\net8.0\ref\MaquinaCafeApp.dll
+C:\MaquinaDeCafe\maquinacafe\MaquinaCafeApp\obj\Debug\net8.0\MaquinaCafeApp.sourcelink.json

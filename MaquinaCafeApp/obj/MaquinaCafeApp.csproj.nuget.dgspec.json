@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MaquinaDeCafe\\MaquinaCafe\\MaquinaCafeApp\\MaquinaCafeApp.csproj": {}
+    "C:\\MaquinaDeCafe\\maquinacafe\\MaquinaCafeApp\\MaquinaCafeApp.csproj": {}
   },
   "projects": {
-    "C:\\MaquinaDeCafe\\MaquinaCafe\\MaquinaCafeApp\\MaquinaCafeApp.csproj": {
+    "C:\\MaquinaDeCafe\\maquinacafe\\MaquinaCafeApp\\MaquinaCafeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MaquinaDeCafe\\MaquinaCafe\\MaquinaCafeApp\\MaquinaCafeApp.csproj",
+        "projectUniqueName": "C:\\MaquinaDeCafe\\maquinacafe\\MaquinaCafeApp\\MaquinaCafeApp.csproj",
         "projectName": "MaquinaCafeApp",
-        "projectPath": "C:\\MaquinaDeCafe\\MaquinaCafe\\MaquinaCafeApp\\MaquinaCafeApp.csproj",
+        "projectPath": "C:\\MaquinaDeCafe\\maquinacafe\\MaquinaCafeApp\\MaquinaCafeApp.csproj",
         "packagesPath": "C:\\Users\\wulve\\.nuget\\packages\\",
-        "outputPath": "C:\\MaquinaDeCafe\\MaquinaCafe\\MaquinaCafeApp\\obj\\",
+        "outputPath": "C:\\MaquinaDeCafe\\maquinacafe\\MaquinaCafeApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wulve\\AppData\\Roaming\\NuGet\\NuGet.Config",
