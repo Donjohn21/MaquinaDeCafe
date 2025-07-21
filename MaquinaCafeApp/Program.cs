@@ -22,9 +22,10 @@ class Program
             Console.WriteLine("3. Grande (7 oz)");
             Console.WriteLine("4. Salir");
             Console.Write("Seleccione el tamaño del vaso: ");
-            string opcion = Console.ReadLine();
+            string? opcion = Console.ReadLine();
 
-            Vaso vaso = null;
+
+            Vaso? vaso = null;
 
             switch (opcion)
             {
