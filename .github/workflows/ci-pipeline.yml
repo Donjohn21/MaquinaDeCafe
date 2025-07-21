@@ -1,28 +1,34 @@
 name: CI Pipeline
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clonar repositorio
+      - name: 📥 Checkout repo
         uses: actions/checkout@v3
 
-      - name: Configurar entorno
-        run: echo "Configurando entorno de compilación"
-
-      - name: Configurar .NET
+      - name: 🔧 Set up .NET
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '7.0.x'  # Cambia si usas .NET 6 o 8
+          dotnet-version: '8.0.x' # o la versión que estás usando
 
-      - name: Restaurar dependencias
+      - name: 📦 Restore dependencies
         run: dotnet restore
+        working-directory: MaquinaCafeApp
 
-      - name: Compilar proyecto
-        run: dotnet build --configuration Release --no-restore
+      - name: 🛠️ Build
+        run: dotnet build --no-restore
+        working-directory: MaquinaCafeApp
 
-      - name: Ejecutar pruebas
+      - name: ✅ Run tests
         run: dotnet test --no-build --verbosity normal
+        working-directory: MaquinaCafeApp
+
+        
